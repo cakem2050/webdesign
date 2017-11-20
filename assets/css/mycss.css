@@ -2,15 +2,15 @@ body{
 	margin: 0 auto;
 	height:100%;
 }
-footer{
-	margin-top:10px;
-	background-color: #4f7bff;
-	height: 100px;
-}
+/*footer{*/
+	/*background-color: #4f7bff;*/
+	/*height: 100px;*/
+	/*color:white;*/
+	/*font-size: 14px;*/
+	/*padding: 35px;*/
+/*}*/
 #footer_set{
-	padding: 35px;
-	color:white;
-	font-size: 14px;
+	
 }
 #wrap {
   height: 485px;
