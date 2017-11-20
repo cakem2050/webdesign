@@ -1,0 +1,243 @@
+/*Content*/
+a {
+    color: #ef9b13;
+    transition: .5s;
+}
+
+a:hover {
+    color: #ef850b;
+}
+
+.content {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.topic-box {
+    border-radius: 0;
+    border-top-left-radius: 20px;
+    margin-bottom: 40px;
+    font-size: 28px;
+    padding: .75rem 1rem;
+    background-color: #e9ecef;
+}
+.topic-box a{
+    color: black;
+}
+.topic-box a:hover{
+    text-decoration: none;
+}
+.topic-news-detail{
+    height: 100px;
+    overflow: hidden;
+}
+.topic-news{
+    background-color: #efb44d;
+    font-size: 18px;
+}
+.breadcrumb{
+    font-size: 14px;
+}
+.breadcrumb-dark{
+    background-color: #1d1e1f;
+}
+.topic-box span:last-child {
+    font-size: 16px;
+}
+
+.topic-box-dark ,.topic-box-dark a{
+    background-color: #1d1e1f;
+    color: #e9ecef;
+}
+
+/*Navigation Bar*/
+.toppic {
+    font-size: 14px;
+    color: #efac2e;
+}
+
+.hide-nav {
+    display: none;
+}
+
+.navbar-nav li {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.edit-drop {
+    border: none;
+    border-radius: 0px;
+    background-color: #f8f9fa;
+}
+
+.back-drop li {
+    padding: 0;
+}
+
+.back-drop li > ul {
+    top: -10px;
+    left: 160px;
+}
+
+.back-drop li:hover > ul {
+    display: block;
+}
+
+.back-drop > ul > li > ul > li:nth-child(even) {
+    background-color: #ebebeb;
+}
+
+.back-drop > ul ul {
+    width: 500px;
+    padding: 0;
+}
+
+/*Header*/
+header {
+    width: 100%;
+    height: 500px;
+}
+
+.header-noise {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0));
+    background-size: 140px 300px;
+    background-position: bottom;
+    background-repeat: repeat;
+}
+.header-bg {
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    /*background: url("../../img/header01.jpg") no-repeat center center fixed;*/
+    background-image: url(../../img/header01.jpg);
+    background-size: cover;
+    background-position:bottom;
+    background-repeat:repeat;
+    background-attachment: fixed;
+}
+/*Contact Me*/
+#contact {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+.contact-detail{
+    padding: 20px;
+}
+.contact-topic{
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.contact-detail-2{
+    padding: 20px;
+    font-size: 14px;
+}
+/*About Me*/
+.about-topic{
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.abount-detail{
+    padding: 20px;
+    text-indent: 30px;
+}
+.about-detail-2{
+    padding: 20px;
+    font-size: 14px;
+}
+.about-detail-2:first-line{
+    font-weight: bold;
+}
+.abount-by{
+    padding: 20px;
+    font-weight: bold;
+}
+#about .card {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 16px;
+}
+/*News*/
+.sec-black {
+    background-image: linear-gradient(to bottom, rgba(110, 110, 110, .5), rgba(110, 110, 110, 0)), url(../../img/bg-footer-noise.jpg);
+    background-size: 40px 500px, 140px 140px;
+    background-repeat: repeat-x, repeat;
+}
+
+.card {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+/*Zone*/
+.sec-white {
+    background-image: linear-gradient(to bottom, rgba(110, 110, 110, .5), rgba(110, 110, 110, 0)), url(../../img/bg-white-noise.jpg);
+    background-size: 40px 150px, 140px 140px;
+    background-repeat: repeat-x, repeat;
+}
+
+.zone {
+    height: 500px;
+}
+
+/*Footer*/
+footer {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .5), rgba(0, 0, 0, 0)), url(../../img/bg-footer-noise.jpg);
+    background-size: 50px 200px, 140px 140px;
+    background-repeat: repeat-x, repeat;
+    width: 100%;
+    /*height: 300px;*/
+    background-color: #2d2e2f;
+    color: #c1c1c1;
+    font-size: 14px;
+    padding: 35px;
+}
+
+.footer-content {
+    margin-top: 50px;
+}
+
+.footer-content > div:last-child {
+    text-align: center;
+    /*margin-top: 40px;*/
+    margin-bottom: 10px;
+}
+
+footer a {
+    color: #c1c1c1;
+    transition: 0.5s;
+}
+
+footer a:hover {
+    color: #8e8e8e;
+    text-decoration: none;
+}
+
+footer ul {
+    margin: 0;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+@media only screen and (max-width: 762px) {
+    footer .row .row {
+        padding-top: 20px;
+    }
+}
+
+/*Google Map*/
+#map {
+    height: 500px;
+    width: 100%;
+}
